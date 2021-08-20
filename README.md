@@ -14,7 +14,7 @@ The specification for how a standard README should look.
 
 # Install
 
-The libraries used are provided in the one pip requirement file and one conda requirement file which can be installed through the bash file using this command: **__bash install_env.sh__**
+The libraries used are provided in the one pip requirement file and one conda requirement file which can be installed through the bash file using this command: _**bash install_env.sh**_
 
 # How to run the code?
 Please follow the markdown instructions in the example file in each folder. Each of the example files import a function python file to run the code. 
