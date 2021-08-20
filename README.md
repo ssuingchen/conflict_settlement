@@ -25,7 +25,7 @@ Please follow the markdown instructions in the example file in each folder. Each
   * Obtained the models by following Allen NLP documentation.
 * LightGBM model
   * I fine-tuned a lightgbm.LGBMClassifier and it is stored in the LightGBM folder named **__lightgbm_sasb_model.txt__**
-  * The training code is located in the LightGBM folder named **__lightgbm_classifier_model.ipynb__**
+  * The training code is located in the LightGBM folder named _**lightgbm_classifier_model.ipynb**_
 * BERT model
   * I fine-tuned a BertForSequenceClassification model, but I didn't upload this model due to it's size. (this is a 439.6 MB file)
-  * The training code is located in the BERT folder named **__BERT_classifier_model.ipynb__**
+  * The training code is located in the BERT folder named _**BERT_classifier_model.ipynb**_
