@@ -8,22 +8,24 @@ The specification for how a standard README should look.
 2. An Allen NLP models application folder
 3. A sequence classification folder using LightGBM
 4. A sequence classification folder using BERT
+5. A conda requirements text file
+6. A pip requirements text file
+7. A bash file which install all the required libraries
 
 # Install
 
-The libraries used are provided in the one pip requirement file and one conda requirement file which can be installed through the bash file using this command: bash install_env.sh
+The libraries used are provided in the one pip requirement file and one conda requirement file which can be installed through the bash file using this command: __bash install_env.sh__
 
-
-How to run the code?
+# How to run the code?
 Please follow the markdown instructions in the example file in each folder. Each of the example files import a function python file to run the code. 
 
-Where do the models come from?
+# Where do the models come from?
 
 * Allen NLP models
   * Obtained the models by following Allen NLP documentation.
 * LightGBM model
-  * I fine-tuned a lightgbm.LGBMClassifier and it is stored in the LightGBM folder named "lightgbm_sasb_model.txt"
-  * The training code is located in the LightGBM folder named "lightgbm_classifier_model.ipynb"
+  * I fine-tuned a lightgbm.LGBMClassifier and it is stored in the LightGBM folder named __lightgbm_sasb_model.txt__
+  * The training code is located in the LightGBM folder named __lightgbm_classifier_model.ipynb__
 * BERT model
   * I fine-tuned a BertForSequenceClassification model, but I didn't upload this model due to it's size. (this is a 439.6 MB file)
-  * The training code is located in the BERT folder named "BERT_classifier_model.ipynb"
+  * The training code is located in the BERT folder named __BERT_classifier_model.ipynb__
